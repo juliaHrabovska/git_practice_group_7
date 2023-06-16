@@ -8,7 +8,9 @@ Test
 
 2. What does the status of a modified file mean in the output of the git status command?
 - That the file has a history in the Git system and has been modified from its last state
-
+- There is no such status, there are only new and deleted statuses
+- This status is visible only with the git ignore command and means that the file is no longer tracked by Git.
+- Status means the file has been added to the commit
 
 3. What is a commit?
 - This is the unit of project state in Git
@@ -23,10 +25,10 @@ Test
 - You can’t commit, because there is no such thing
 
 5. In what situation should you do git status?
+- The more often the better
+- Always when creating a commit
+- Always after git pull
 - Only if you need to find out what status the repository is in, otherwise this command is not mandatory for any manipulation
-
 Text
-
 Branches
-When you make a commit, Git stores a commit object that contains a pointer to the snapshot of the content you stagged. This object also contains the authoooooor’s name and email addrrrrrrrress, the messsssssssage that you typed, and poinnnnnnnters to the commit or commits that directly came before this commit (its parent or parents): zero parents for the inittttttttial commit, one parent for a normal commit, and multiple parents for a commit that results from a merge of two or more branches.
-
+When you make a commmmmmmmmit, GitGitGitGitGit stores a commit object that contains a pointer to the snapshoooooot of the content you staggggggged. This object also contains the authoooooor’s name and email addrrrrrrrress, the messsssssssage that you typed, and poinnnnnnnters to the commit or commits that directly came before this commit (its parent or parents): zero parents for the inittttttttial commit, one parent for a normal commit, and multiple parents for a commit that results from a merge of two or more braaaaaaanches.
